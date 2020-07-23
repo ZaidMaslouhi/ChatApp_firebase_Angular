@@ -1,0 +1,31 @@
+
+.chatInput{
+    flex: 10;
+    font-size: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #eee;
+    color: #000;
+    transition: 0.1s ease-out;
+    padding-left: 80px;
+    outline: none;
+}
+
+.chatInput:focus{
+    background-color: #e4f1fe;
+    color: #222;
+    transition: 0.2s ease-in;
+}
+
+.chatButton{
+    flex: 1;
+    padding: 8px 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #2a2845;
+    color: white;
+    transition: 0.2s ease-out;
+    cursor: pointer;
+}
+
+.chatButton:hover{
+    background-color: #444444;
+}

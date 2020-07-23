@@ -1,0 +1,21 @@
+
+<div class="navBar" (click)="reLoad()">
+    <div id="logo"></div>
+    <div id="heading">
+        <a routerLink="/">Ms-Chat</a>
+    </div>
+    <div class="links">
+        <span>
+            <a *ngIf="!user" routerLink="/login">Login</a>
+        </span>
+        <span>
+            <a *ngIf="!user" routerLink="/signup">Sign Up</a>
+        </span>
+        <span>
+            <a *ngIf="user" id="userEmail">Hello, {{ user.email }}</a>
+        </span>
+        <span>
+            <a *ngIf="user" (click)="logout()">Logout</a>
+        </span>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.message{
+    flex-direction: column;
+    margin: 10px 0;
+}

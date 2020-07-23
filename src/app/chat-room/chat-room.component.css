@@ -1,0 +1,57 @@
+
+.mainContent{
+    display: flex;
+}
+
+.userListWrapper{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    flex: 1;
+    color: #fff;
+    order: 1;
+    background-color: #2a2845;
+    /* padding: 20px 0px 40px 30px; */
+    border-right: 1px solid #222;
+}
+
+app-user-list {
+    width: 100%;
+}
+
+.feedWrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    flex: 5;
+    order: 2;
+    overflow-y: scroll;
+    padding: 20px 0px 0px 24px;
+    height: calc(100% - 60px);
+    background-color: #fff;
+    
+}
+
+.chatFormWrapper{
+    display: flex;
+    height: 50px;
+    background-color: #eee;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+#scroller::-webkit-scrollbar{
+    border-radius: 10px;
+    width: 10px;
+}
+
+#scroller::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background-color: rgb(69, 66, 109);
+} 
+
+#scroller::-webkit-scrollbar-track{
+    background-color: rgba(42, 40, 69, 0.411);
+}

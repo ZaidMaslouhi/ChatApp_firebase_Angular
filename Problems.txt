@@ -1,0 +1,6 @@
+
+-navbar must be refreshed automatically
+
+-sendMessage() has a caalBack function not working in first time even called the callBack twice
+
+-Feed and chat-form style probleme of position

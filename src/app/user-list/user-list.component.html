@@ -1,0 +1,10 @@
+
+<div class="conatiner">
+    <ul>
+        <li *ngFor="let user of users | async">
+            <span *ngIf="user.status === 'online'" style="background-color: forestgreen;"></span>
+            <span *ngIf="user.status !== 'online'" style="background-color: #555555;"></span>
+            {{ user.displayName | lowercase }}
+        </li>
+    </ul>
+</div>

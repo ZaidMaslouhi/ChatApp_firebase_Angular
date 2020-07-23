@@ -1,0 +1,83 @@
+
+
+.container{
+    overflow: hidden;
+    background: 
+    linear-gradient(45deg,rgba(219, 82, 52, 0.18),rgba(243, 125, 21, 0.15)),
+    url('../../assets/img/jakob-owens-uE_N2i6-TRM-unsplash-min.jpg') center center no-repeat;
+    background-size: cover;
+}
+
+.logInCard{
+    display: block;
+    border:  1px solid #000000;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.85);
+    width: 700px;
+    height: 420px;
+    margin: auto;
+    margin-top: 100px;
+    padding: 60px 50px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.heading{
+    color: #2a2845;
+}
+
+.formInput{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 5x;
+    background-color: #ecf0f1;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 1em;
+    margin-bottom: 18px;
+}
+
+.btn{
+    height: 54px;
+    margin-top: 32px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.17), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: 0.2s ease-in;
+}
+
+#btn-logIn{
+    background-color: #2a2845;
+}
+
+#btn-logIn:hover{
+    background-color: #4a4865;
+    transition: 0.2s ease-in;
+}
+
+#btn-logIn:disabled{
+    background-color: #eee;
+    color: #999;
+}
+
+h2{
+    text-align: center;
+    height: 2em;
+}
+
+a{
+    text-decoration: none;
+}
+
+.label{
+    font-size: 0.9em;
+}
+

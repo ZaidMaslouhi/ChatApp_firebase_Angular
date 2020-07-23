@@ -1,0 +1,22 @@
+
+<div class="container">
+    <div class="logInCard">
+        <form #logInform="ngForm">
+            <h2 class="heading">Log In</h2>
+
+            <label for="email" class="label">Email</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email address"
+                    class="formInput" maxlength="60" [(ngModel)]="email" required>
+
+            <label for="password" class="label">Password</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password"
+                    class="formInput" [(ngModel)]="password" required>
+
+            <button class="btn" id="btn-logIn" type="submit"
+                    (click)="logIn()" [disabled]="!logInform.form.valid">
+                    Log In
+            </button>
+
+        </form>
+    </div>
+</div>
